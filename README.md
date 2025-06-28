@@ -3,7 +3,7 @@
 ---
 
 This repository contains the Verilog HDL implementation of a simple **RISC-V pipelined processor**.  
-For detailed information on the RISC-V instruction set, please refer to the official RISC-V Instruction Set Manual, available in the `doc` directory (originally from https://riscv.org)
+For detailed information on the RISC-V instruction set, please refer to the official RISC-V Instruction Set Manual, available in the `docs` directory (originally from https://riscv.org)
 
 ## Features
 
