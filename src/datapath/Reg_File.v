@@ -20,7 +20,7 @@ module Reg_File (
         end
     end
 
-    // the extra bypassing logic in this block is purely because of verilog simulation semantics
+    // the extra bypassing logic in this block is because of verilog simulation quirks
     // not required when running on hardware
     always @(negedge clk or negedge resetn) begin
         if (~resetn) begin
